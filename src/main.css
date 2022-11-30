@@ -70,9 +70,8 @@ body{
 
 
 .caixa-menu {
-    position: absolute;
-    width: 259px;
-    
+    position: fixed;
+    width: 259px;    
     left: 15%;
     top: 15%;
 }
@@ -81,9 +80,32 @@ body{
 .filt-cores {
     display: flex;
     flex-direction: column;
-    margin-bottom: 25px;
-    
+    margin-bottom: 25px;    
 }
+.custom-checkbox input {
+    display: none;
+}
+
+.custom-checkbox {
+    display: block;
+    position: relative;    
+    font-size: 14px;
+    color: #424242;
+    font-weight: 500;
+}
+.custom-checkbox span {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: none;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    cursor: pointer
+}
+
+input:checked + span {
+    background-color: #00C0EE;
+}
+
 
 .filt-tam {
     max-width: 100px;
@@ -92,9 +114,19 @@ body{
     margin-bottom: 25px;    
 }
 
+.filt-tam button {
+    width: 30px;
+    height: 30px;
+    margin: 5%;
+    background: none;
+    border: 1px solid rgba(0, 0, 0, 0.301);
+    cursor: pointer
+}
+
 .filt-preço {
     display: flex;
     flex-direction: column;
+
 }
 
 h4 {
@@ -111,10 +143,10 @@ h4 {
 .produtos {
     /* border: 1px solid black; */
     position: absolute;
-    width: 821px;
-    height: 847px;
+    max-width: 838px;
+    height: 737px;
     left: 489px;
-    top: 108px;
+    top: 135px;
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
@@ -129,20 +161,14 @@ h4 {
     text-align: center;
 }
 
-#footer {
-    position: absolute;
-    width: 100%;
-    height: 30px;
-    top: 100%;
+.footer {
+    background-color: #000000;
+    width: 100vw;
+    color: #eee;
     bottom: 0;
-        
-    background:rgb(0, 0, 0);
-    color: var(--color006);
-    
-    display: flex;
+    position: fixed;
     text-align: center;
-    justify-content: center;
-    align-items: center;
-    
+    ;
 }
+
 
