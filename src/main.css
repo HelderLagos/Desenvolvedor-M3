@@ -82,6 +82,7 @@ body{
     flex-direction: column;
     margin-bottom: 25px;    
 }
+
 .custom-checkbox input {
     display: none;
 }
