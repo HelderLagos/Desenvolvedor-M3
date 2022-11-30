@@ -1,27 +1,147 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://use.typekit.net/cpx7jnr.css">
   <script src="https://kit.fontawesome.com/e75905c02a.js" crossorigin="anonymous"></script>
   <title>Desenvolvedor M3</title>
   <link rel="stylesheet" href="main.css" />
 </head>
-<body>
-  <nav class="nav">
-    <div class="nav-logo">
-<img src="img/logo-m3.png" >
+<div id="container">
+  <div id="header">
+      <img src="img/logo-m3.png" >
+      <button class="nav-ckout">
+          <img src="img/icon (1).png"><span class="num-itens">1</span></i>
+      </button>
+  </div>
+  
+  <div id="body"></div>
+  <div class="caixa-menu">    
+      <section class="menus">
+        <form class="filt-cores">
+          <h4>CORES</h4>
+            <label>
+              <input type="checkbox"></input> Amarelo
+            </label>
+            <label>
+              <input type="checkbox"></input> Azul
+            </label>
+            <label>
+              <input type="checkbox"></input> Branco
+            </label>
+            <label>
+              <input type="checkbox"></input> Cinza
+            </label>
+            <label>
+              <input type="checkbox"></input> Laranja
+            </label>
+            <label>
+              <input type="checkbox"></input> Verde
+            </label>
+            <label>
+              <input type="checkbox"></input> Vermelho
+            </label>      
+            <label>
+              <input type="checkbox"></input> Preto
+            </label>      
+            <label>
+              <input type="checkbox"></input> Rosa
+            </label>      
+            <label>
+              <input type="checkbox"></input> Vinho
+            </label>      
+        </form>        
+          
+        <form class="filt-tam">
+          <h4>TAMANHOS</h4>
+          <div class="btn-tam">
+            <button> P </button>
+            <button> M </button>
+            <button> G </button>
+            <button> PG </button>
+            <button> U </button>
+            <button> 36 </button>
+            <button> 38 </button>
+            <button> 40 </button>
+            <button> 36 </button>
+            <button> 38 </button>
+            <button> 40 </button>                    
+          </div>
+        </form>
+        <form class="filt-preço">
+          <h4>FAIXA DE PREÇO</h4>
+            <label>
+              <input type="checkbox"></input> de R$0 até R$50
+            </label>
+            <label>
+              <input type="checkbox"></input> de R$51 até R$150
+            </label>
+            <label>
+              <input type="checkbox"></input> de R$151 até R$300
+            </label>
+            <label>
+              <input type="checkbox"></input> de R$301 até R$500
+            </label>
+            <label>
+              <input type="checkbox"></input> a partir de R$ 500
+            </label>   
+        </form>  
+      </section>
     </div>
-    <div class="nav-ckout">
-      <i class="fa-solid fa-bag-shopping fa-2x"></i>
-    </div>
-  </nav>
 
+  <section class="produtos">      
+      <section class="produto">
+        <img src="img/img_10.png">
+        <h3 class="descricao">CAMISETA MESCLA</h3>
+        <span class="preco">R$ 28,00</span>
+        <span class="parcela">até 3x de R$9,33</span>
+        <button class="comprar">COMPRAR</button>
+      </section>      
+      <section class="produto">
+        <img src="img/img_2.png">
+        <h3 class="descricao">CAMISETA MESCLA</h3>
+        <span class="preco">R$ 28,00</span>
+        <span class="parcela">até 3x de R$9,33</span>
+        <button class="comprar">COMPRAR</button>
+      </section>      
+      <section class="produto">
+        <img src="img/img_3.png">
+        <h3 class="descricao">CAMISETA MESCLA</h3>
+        <span class="preco">R$ 28,00</span>
+        <span class="parcela">até 3x de R$9,33</span>
+        <button class="comprar">COMPRAR</button>
+      </section>      
+      <section class="produto">
+        <img src="img/img_10.png">
+        <h3 class="descricao">CAMISETA MESCLA</h3>
+        <span class="preco">R$ 28,00</span>
+        <span class="parcela">até 3x de R$9,33</span>
+        <button class="comprar">COMPRAR</button>
+      </section>      
+      <section class="produto">
+        <img src="img/img_2.png">
+        <h3 class="descricao">CAMISETA MESCLA</h3>
+        <span class="preco">R$ 28,00</span>
+        <span class="parcela">até 3x de R$9,33</span>
+        <button class="comprar">COMPRAR</button>
+      </section>      
+      <section class="produto">
+        <img src="img/img_3.png">
+        <h3 class="descricao">CAMISETA MESCLA</h3>
+        <span class="preco">R$ 28,00</span>
+        <span class="parcela">até 3x de R$9,33</span>
+        <button class="comprar">COMPRAR</button>
+      </section>      
+      
+    </section>
 
+  <div id="footer">M3: IMPLANTAÇÃO DE E-COMMERCE VTEX</div>
+</div>
 </body>
 <script src="bundle.js"></script>
-
 </html>
