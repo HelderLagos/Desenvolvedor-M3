@@ -98,7 +98,6 @@ nav {
     justify-content: center;
 }
 
-
 /* ============== */
 
 main {
@@ -108,63 +107,22 @@ main {
     
 }
 .main-container {
+    /* border: 2px black solid; */
     display: flex;
-    flex-direction: column;
-    padding: 2%;
-    gap: 49px;
-    margin-left: 71px;
-}
-.product-row {
-    display: flex;
+    flex-wrap: wrap;
     gap: 30px;
+    padding: 15px;
+    margin-left: 10%;
 }
 .product {
+    /* border: 2px rgb(207, 12, 12) solid; */
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap: 10px;
+    text-align: center;
 }
 .product img {
     height: 293px;
-}
-
-.product button {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
-    color: #eee;
-    font-weight: 700;
-    font-size: 14px;
-    padding: 7px 49px;
-    cursor: pointer;
-}
-.product button:hover {
-    transition: 1s;
-    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
-}
-
-.price {
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.more{
-    display: flex;
-    justify-content: center;
-}
-.more div{
-    display: flex;
-    background-color: #00C0EE;
-    width: 175px;
-    height: 35px;
-    justify-content: center;
-    align-items: center;
-    font-weight: 700;
-    font-size: 14px;
-    color: #eee;
-    margin-bottom: 20px;
-}
-.more-btn {
-    color: #eee;
+    width: 195px;
 }
 
 
