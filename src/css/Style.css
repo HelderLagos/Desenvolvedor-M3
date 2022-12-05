@@ -124,6 +124,20 @@ main {
     height: 293px;
     width: 195px;
 }
+.product a{
+    cursor: pointer;
+    width: 195px;
+    height: 33.55px;
+    background-color: black;
+    color:#eee;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+.add-to-cart {
+    cursor: pointer;
+}
 
 
 /* =========== */
