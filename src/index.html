@@ -37,20 +37,26 @@
     <nav>
         <div class="nav-containers">
             <h3>CORES</h3>
-            <div class="nav-colors">
-                <ul>
-                    <li><input type="checkbox"> Amarelo </li>
-                    <li><input type="checkbox"> Azul </li>
-                    <li><input type="checkbox"> Branco </li>
-                    <li><input type="checkbox"> Cinza </li>
-                    <li><input type="checkbox"> Laranja </li>
-                    <li><input type="checkbox"> Rosa </li>
-                    <a class="nav-colors-btn" href="">
-                        <span>ver todas as cores</span>
-                        <img src="img/dropdown.png" class="dropdow"></img>
-                    </a>                  
-                </ul>
-            </div>
+                <div class="nav-colors">
+                    <ul class="color-chk-list">
+                        <li data-filter="Amarelo"><input class="nav-color-chk" type="checkbox"> Amarelo </li>
+                        <li data-filter="Azul"><input class="nav-color-chk" type="checkbox"> Azul </li>
+                        <li data-filter="Branco"><input class="nav-color-chk" type="checkbox"> Branco </li>
+                        <li data-filter="Cinza"><input class="nav-color-chk" type="checkbox"> Cinza </li>
+                        <li data-filter="Laranja"><input class="nav-color-chk" type="checkbox"> Laranja </li>
+                        <div class="seeMoreContainer">
+                        <li data-filter="Verde"><input class="nav-color-chk" type="checkbox"> Verde </li>
+                        <li data-filter="Rosa"><input class="nav-color-chk" type="checkbox"> Rosa </li>
+                        <li data-filter="Preto"><input class="nav-color-chk" type="checkbox"> Preto </li>
+                        <li data-filter="Rosa"><input class="nav-color-chk" type="checkbox"> Rosa </li>
+                        <li data-filter="Vinho"><input class="nav-color-chk" type="checkbox"> Vinho  </li>
+                        </div>
+                        <span class="see-more-btn">
+                            ver todas as cores
+                            <img src="img/dropdown.png" class="dropdow"></img>
+                        </span>
+                    </ul>
+                </div>
             <h3>TAMANHOS</h3>
             <div class="nav-size">
                 <a class="nav-size-btn" href="#"><span class="btn"> P </span></a>
@@ -68,11 +74,11 @@
             <h3>FAIXA DE PREÇO</h3>
             <div class="nav-price">
                 <ul>
-                    <li><input type="checkbox"> de R$0 até R$50</li>
-                    <li><input type="checkbox"> de R$51 até R$150</li>
-                    <li><input type="checkbox"> de R$151 até R$300</li>
-                    <li><input type="checkbox"> de R$301 até R$500 </li>
-                    <li><input type="checkbox"> a partir de R$01 </li>                                     
+                    <li><input class="nav-price-chk" type="checkbox"> de R$0 até R$50</li>
+                    <li><input class="nav-price-chk" type="checkbox"> de R$51 até R$150</li>
+                    <li><input class="nav-price-chk" type="checkbox"> de R$151 até R$300</li>
+                    <li><input class="nav-price-chk" type="checkbox"> de R$301 até R$500 </li>
+                    <li><input class="nav-price-chk" type="checkbox"> a partir de R$01 </li>                                     
                 </ul>
             </div>
         </div>
@@ -95,6 +101,6 @@
             <h3>M3: IMPLANTAÇÃO E-COMMERCE VTEX</h3>
         </div>
     </footer>
-    <script type="module" src="script.js"></script>
+    <script type="module" src="main.js"></script>
 </body>
 </html>

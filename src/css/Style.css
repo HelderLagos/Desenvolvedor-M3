@@ -36,10 +36,11 @@ header {
     justify-content: center;
     align-items: center;
     background: #00C0EE;
-    width: 15px;
-    height: 15px;
+    width: 17px;
+    height: 17px;
     border-radius: 50%;
     color: #eee;
+    font-size: 11px;
 }
 
 /* ========== */
@@ -74,7 +75,7 @@ nav {
     flex-direction: column;
     gap: 20px;
 }
-.nav-colors-btn {
+.see-more-btn {
     color: rgb(151, 151, 151);
 }
 .nav-size {
